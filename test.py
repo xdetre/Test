@@ -15,6 +15,9 @@ class Person:
     def old(self):
         del self.__old
 
+    def id(self):
+        pass
+
     # old = property()
     # old = old.setter(set_old)
     # old = old.getter(get_old)
