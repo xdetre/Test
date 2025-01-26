@@ -1,7 +1,8 @@
 class Person:
-    def __init__(self, name, old):
+    def __init__(self, name, old, num):
         self.__name = name
         self.__old = old
+        self.num = num
 
     @property
     def old(self):
@@ -17,6 +18,9 @@ class Person:
 
     def id(self):
         pass
+
+    def new_meth(self, num):
+        return num
 
     # old = property()
     # old = old.setter(set_old)
